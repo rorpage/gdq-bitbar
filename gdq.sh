@@ -6,5 +6,8 @@ echo "$game | color=purple"
 echo "---"
 echo "Games Done Quick | href=https://gamesdonequick.com"
 echo "---"
+echo "Watch on Twitch | href=https://twitch.tv/gamesdonequick"
+echo "Schedule | href=https://gamesdonequick.com/schedule"
+echo "---"
 echo $donations
 exit 0
