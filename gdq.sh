@@ -1,6 +1,6 @@
 #!/bin/bash
 game=$(curl -s https://api.twitch.tv/kraken/channels/gamesdonequick -H 'client-id:jzkbprff40iqj646a697cyrvl0zt2m6' | /usr/local/bin/jq -r '.game')
-donations=$(curl -s https://gamesdonequick.com/tracker/donations/agdq2018 | /usr/local/bin/pup 'h2.text-center small text{}')
+donations=$(curl -s https://gamesdonequick.com/tracker/donations/sgdq2018 | /usr/local/bin/pup 'h2.text-center small text{}')
 
 echo "$game | color=purple"
 echo "---"
